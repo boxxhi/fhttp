@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/refraction-networking/utls"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/http2"
+	http "github.com/boxxhi/fhttp"
+	"github.com/boxxhi/fhttp/http2"
 )
 
 // Basic http test with Header Order + enable push
